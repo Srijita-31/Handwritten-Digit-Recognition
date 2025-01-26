@@ -1,10 +1,6 @@
 
 # Handwritten Digit Recognition using MNIST Dataset
 
-![Python](https://img.shields.io/badge/Python-3.x-blue) 
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Success-brightgreen) 
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-Neural%20Network-orange)
-
 This project implements a handwritten digit recognition system using the MNIST dataset. The model is trained using a neural network to classify images of digits (0-9).
 
 ---
@@ -15,8 +11,6 @@ This project implements a handwritten digit recognition system using the MNIST d
 - [Technologies Used](#technologies-used)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
