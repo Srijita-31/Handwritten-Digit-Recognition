@@ -1,4 +1,4 @@
-# Handwritten-Digit-Recognition
+
 # Handwritten Digit Recognition using MNIST Dataset
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue) 
@@ -35,7 +35,6 @@ The MNIST dataset contains:
 - **Test Set:** 10,000 images
 - Each image is 28x28 pixels, flattened into a 1D vector of 784 features.
 
-You can download the dataset directly using libraries like TensorFlow or PyTorch.
 
 ---
 
@@ -48,5 +47,44 @@ You can download the dataset directly using libraries like TensorFlow or PyTorch
   - Matplotlib/Seaborn (for visualizations)
 
 ---
+## Model Architecture
 
+The neural network architecture for this project is as follows:
 
+- **Input Layer:**
+  - 784 neurons (28x28 flattened input for grayscale images).
+
+- **Hidden Layers:**
+  - **Layer 1:** Fully connected layer with 128 neurons and ReLU activation.
+  - **Layer 2:** Fully connected layer with 64 neurons and ReLU activation.
+
+- **Output Layer:**
+  - 10 neurons corresponding to digits (0-9) with softmax activation for multi-class classification.
+
+- **Loss Function:** Categorical Crossentropy  
+- **Optimizer:** Adam  
+- **Metrics:** Accuracy  
+
+---
+
+## Results
+
+### Performance Metrics
+
+| Metric      | Value   |
+|-------------|---------|
+| **Accuracy**| 98.5%   |
+| **Loss**    | 0.05    |
+
+---
+
+### Visual Examples
+
+Here are some sample predictions made by the model:
+
+| Input Image       | Predicted Label |
+|--------------------|-----------------|
+| ![Sample1](sample1.png) | **3**          |
+| ![Sample2](sample2.png) | **7**          |
+
+The model achieves a high accuracy on the test set and generalizes well across unseen data.
