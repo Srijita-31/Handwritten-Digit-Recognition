@@ -13,8 +13,6 @@ This project implements a handwritten digit recognition system using the MNIST d
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
 - [Contributing](#contributing)
@@ -84,7 +82,7 @@ Here are some sample predictions made by the model:
 
 | Input Image       | Predicted Label |
 |--------------------|-----------------|
-| ![Sample1](sample1.png) | **3**          |
-| ![Sample2](sample2.png) | **7**          |
+| ![Image-1](Image-1.jpeg) | **5**          |
+| ![Image-2](Image-2.jpg) | **0**          |
 
 The model achieves a high accuracy on the test set and generalizes well across unseen data.
